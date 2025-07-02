@@ -31,7 +31,7 @@ const torneoSchema = new mongoose_1.Schema({
     ],
     reglaOrdenGrupo: {
         type: mongoose_1.Schema.Types.ObjectId,
-        ref: 'reglaOrdenGrupo',
+        ref: 'ReglaOrdenGrupo',
         required: true
     },
     estado: {
