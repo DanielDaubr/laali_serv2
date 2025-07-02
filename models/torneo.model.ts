@@ -29,7 +29,7 @@ const torneoSchema = new Schema({
   ],
   reglaOrdenGrupo: {
     type: Schema.Types.ObjectId,
-    ref: 'reglaOrdenGrupo',
+    ref: 'ReglaOrdenGrupo',
     required: true
   },
   estado: {
